@@ -14,6 +14,7 @@ export default createAppContainer(
       New
     },
     {
+      inicialRouteName: 'New',
       defaultNavigationOptions: {
         headerTintColor: "#000",
         headerTitle: <Image style={{ marginHorizontal: 20 }} source={logo} />,
